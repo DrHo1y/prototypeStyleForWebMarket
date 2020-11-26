@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/item.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Портативная колонка</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <div class="top">
+
+                <nav class="head">
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <div class="left">
+                                <ul>
+                                    <li><a href="about.html">О магазине</a></li>
+                                    <li><a href="#">Оплата и Доставка</a></li>
+                                    <li><a href="#">Ремонт телефонов</a></li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li><a href="#">Вход</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <header class="header">
+                    <div class="background">
+                        <div class="logo">
+                            <a href="index.html">Название магазина</a>
+                        </div>
+                        <div class="cart">
+                            <div class="cart__container" onmouseover="VisibleInfo()" onmouseout="HiddenInfo()">
+                                <div class="title">Ваша корзина</div>
+                                <div class="count">2 тов.</div>
+                                <div class="ico"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                <div class="info">
+                                    <div class="cart-item">
+                                        <div class="cart-img"><img src="./img/product/1.jpeg" alt=""></div>
+                                        <div class="cart-title">Портативная колонка</div>
+                                        <div class="cart-cost">100,00 руб.</div>
+                                        <div class="delete"><i class="fa fa-times" aria-hidden="true"></i></div>
+                                    </div>
+                                    <div class="cart-item">
+                                        <div class="cart-img"><img src="./img/product/3.jpeg" alt=""></div>
+                                        <div class="cart-title">Компьютерная мышь</div>
+                                        <div class="cart-cost">40,00 руб</div>
+                                        <div class="delete"><i class="fa fa-times" aria-hidden="true"></i></div>
+                                    </div>
+                                    <div class="total">
+                                        <div class="total-cost">Итого: 140,00 руб.</div>
+                                        <a href="checkoutpage.html"><div class="checkout">Оформить заказ</div></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="contact-wrapper">
+                            <ul>
+                                <li>
+                                    <img src="./img/ico_mts.png" alt="mts">&nbsp;<a
+                                        href="tel:+375(33) 111-22-33">+375(33) 111-22-33</a>
+                                </li>
+                                <li>
+                                    <img src="./img/a1.png" alt="a1">&nbsp;
+                                    <img src="./img/telegram logo.png" alt="telegram">&nbsp;
+                                    <img src="./img/viber-App-app-logo-png.png" alt="viber">
+                                    &nbsp;<a href="tel:+375(33) 222-44-33">+375(33) 222-44-33</a>
+                                </li>
+                                <li>
+                                    <img src="./img/время работы.png" alt="time">
+                                    &nbsp;Пн-Сб 9.00 - 22.00
+                                </li>
+                                <li>
+                                    <img src="./img/email-icon-23.png" alt="email">
+                                    &nbsp; <a href="mailto:emailexample@yandex.ru">emailexample@yandex.ru</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+
+            </div>
+
+            <div class="midle">
+                <nav class="menu">
+                    <div class="menu-title">
+                        Каталог
+                    </div>
+                    <ul class="main" id="main">
+
+                        <script src="./js/category-items.js"></script>
+
+                    </ul>
+                </nav>
+
+                <div class="content-item">
+                    <div class="route">Главная > Каталог > Аудио-Техника > Портативная колонка</div>
+                    <div class="item-wrapper">
+                        
+                        <div class="title">Портативная колонка</div>
+                        <div class="img"><img src="./img/product/1.jpeg" alt=""></div>
+                        <div class="right">
+                            <div class="cost">100,00 руб.</div>
+                            <div class="buy">В корзину</div>
+                            <div class="discription">
+                                <p>
+                                    JBL Flip 4 — это беспроводная акустическая система нового
+                                    поколения из отмеченной многими наградами серии Flip с
+                                    удивительно мощным стереозвуком. Эта компактная акустическая
+                                    система с литий-ионным аккумулятором емкостью 3000 мА*ч
+                                    позволяет в течение 12 часов наслаждаться качественным
+                                    звучанием. Акустическая система Flip 4 покрыта прочной
+                                    водостойкой тканью и поставляется в 6 ярких цветах.
+                                    Она станет универсальным компаньоном для любой погоды и
+                                    вечеринки.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-wrapper">
+                <div class="block-1">
+                    <div class="title">Полезная информация</div>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О магазине</a></li>
+                        <li><a href="#">Ремонт телефонов</a></li>
+                        <li><a href="#">Оплата и доставка</a></li>
+                        <li><a href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+                <div class="block-2">
+                </div>
+            </div>
+            <div class="block-3">
+                <p>
+                    ИП Иванов Иван Иванович<br />
+                    Режим работы: ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС с 10:00 до 21:00 <br />
+                    Свидетельство 123456789 выдано 17 сентября 2000г. Барановичским горисполком <br />
+                    УНП 987654321 <br />
+                    123456 Республика Беларусь, г. Барановичи ул.Комсомольска, д. 11, кв. 105 <br />
+                    Дата регистрации в Торговом реестре РБ: 20.11.2000, №456123 <br />
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/winscrol.js"></script>
+</body>
+
+</html>

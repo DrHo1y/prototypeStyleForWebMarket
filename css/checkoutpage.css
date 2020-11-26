@@ -1,0 +1,128 @@
+.checkout-wrapper {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    color: #3b4e6f;
+}
+
+.checkout-wrapper .title {
+    display: flex;
+    justify-content: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    
+}
+
+.table {
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+	empty-cells: show; 
+}
+
+.table .table__header {
+    display: table-header-group;
+}
+
+.table__header .table__row, .table__body .table__row {
+    display: table-row;
+    border-bottom: 1px solid rgba(58, 77, 110, 0.3);
+}
+
+.table .table__body {
+    display: table-row-group;
+}
+
+.table__row .table__cell {
+    display: table-cell;
+}
+
+.table__header .table__row .table__cell{
+    height: 80px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.table__header .table__row .table__product--main {
+    font-size: 2em;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+
+.table__header .table__row .table__product--minor {
+    
+    font-size: 1.1em;
+    width: 180px;
+    text-align: right;
+    
+}
+
+.table__body .table__row:last-child {
+    border: none;
+}
+
+.table__cell--total {
+    color: #ffa809;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.table__body .table__row .table__product--main {
+    text-align: left;
+}
+
+.table__body .table__row .table__product--minor{
+    text-align: right;
+}
+
+.table__body .table__row .table__cell {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.table__cell .table__grid {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 50px auto;
+}
+
+.table__grid .table__grid--img {
+    width: 100%;
+    grid-row: span 2;
+    margin: 10px 10px 5px 10px;
+}
+.table__grid--img img {
+    width: 100%;
+}
+
+
+.table__grid .table__grid--title {
+    margin: 10px 10px 10px 20px;
+}
+
+.table__grid .table__grid--cancel {
+    margin: 10px 10px 10px 20px;
+}
+
+.checkout-wrapper .contact-info {
+    width: 100%;
+    height: auto;
+}
+
+.contact-info .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.contact-info input, .contact-info textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 40px;
+}
